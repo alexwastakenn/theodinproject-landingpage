@@ -7,3 +7,11 @@ body {
   display: flex;
   flex-flow: column nowrap;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
