@@ -41,6 +41,13 @@ ul {
   display: flex;
   flex-direction: row;
   border: 1px solid red;
-  padding: 128px 256px;
+  margin: 128px 256px;
   justify-content: space-between;
+}
+
+.placeholder-image {
+  line-height: 50px;
+  background-color: gray;
+  border: 1px solid red;
+  padding: 0px 64px;
 }
