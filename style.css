@@ -15,3 +15,32 @@ ul {
 a {
   text-decoration: none;
 }
+
+.header-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.navbar-container {
+  justify-content: space-between;
+  align-content: center;
+  padding: 32px 256px;
+  padding-bottom: 0;
+  border: 1px solid red;
+}
+
+.navbar-container,
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  padding: 128px 256px;
+  justify-content: space-between;
+}
