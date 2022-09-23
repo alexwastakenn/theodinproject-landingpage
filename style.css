@@ -57,3 +57,7 @@ ul {
   border: 0;
   background-color: #3882f6;
 }
+
+.title-container p {
+  padding-bottom: 2px;
+}
