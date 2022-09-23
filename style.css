@@ -46,8 +46,14 @@ ul {
 }
 
 .placeholder-image {
-  line-height: 50px;
   background-color: gray;
   border: 1px solid red;
   padding: 0px 64px;
+}
+
+.title-container button {
+  padding: 4px 20px;
+  border-radius: 6px;
+  border: 0;
+  background-color: #3882f6;
 }
