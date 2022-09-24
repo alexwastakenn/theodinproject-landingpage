@@ -16,6 +16,8 @@ a {
   text-decoration: none;
 }
 
+/* Header Section */
+
 .header-container {
   display: flex;
   flex-grow: 1;
@@ -60,4 +62,40 @@ ul {
 
 .title-container p {
   padding-bottom: 2px;
+}
+
+/* Info Section */
+
+.info-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.info-container .title {
+  border: 1px solid red;
+}
+
+.items-with-subtext {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  border: 1px solid red;
+}
+
+.items-with-subtext div {
+  border: 1px solid red;
+}
+
+.items-with-subtext p {
+  text-align: center;
+  max-width: 17ch;
+}
+
+.item {
+  height: 17ch;
+  border: 1px solid red;
+  border-radius: 8px;
 }
