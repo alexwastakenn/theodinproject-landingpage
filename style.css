@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+.content-container {
+  border: 1px solid red;
+}
+
 /* Header Section */
 
 .header-container {
@@ -98,4 +102,26 @@ ul {
   height: 17ch;
   border: 1px solid red;
   border-radius: 8px;
+}
+
+/* Quotation Section */
+
+.quotation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.quotation-container div {
+  border: 1px solid red;
+}
+
+.quotation {
+  max-width: 42ch;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
 }
