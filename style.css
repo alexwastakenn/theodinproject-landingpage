@@ -138,3 +138,10 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+/* Footer Section */
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
